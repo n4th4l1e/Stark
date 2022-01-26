@@ -160,7 +160,7 @@ public class Game {
         System.out.println("HERZLICH WILLKOMMEN " + player.getName());
 
         try {
-            br = new BufferedReader(new FileReader("resources/Questions.csv"));
+            br = new BufferedReader(new FileReader("../resources/Questions.csv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
